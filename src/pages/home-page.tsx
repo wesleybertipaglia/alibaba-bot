@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { IntroModal } from "../components/intro-modal";
-import { RobotForm } from "../components/robot-form";
+import IntroModal from "../components/intro-modal";
+import RobotForm from "../components/robot-form";
 import RobotCard from "../components/robot-card";
 import type { Robot, RobotFormData } from "../types/robot";
 import { generateRandomParts } from "../utils/robot-utils";
